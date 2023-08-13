@@ -1,0 +1,29 @@
+label {
+    display: block;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.blog_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#submit input[type="submit"]:hover {
+    background-color: pink;
+}
+
+
+
+

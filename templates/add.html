@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Blog</title>
+    <link rel="stylesheet" href="/static/css/add.css"> 
+</head>
+<body>
+<p>Create your blog!</p>
+    <div class="blog_container">
+        <form action="/blog/add", method="POST">
+            <section id="title">
+                <textarea id="title" name="title" placeholder="Blog title" rows="3%" cols="115%" required></textarea>
+            </section>
+            <section id="description">
+                <textarea id="description" name="description" rows="35%" cols="115%" placeholder="Blog description" required></textarea>
+            </section>
+            <section id="submit">
+                <input type="submit" value="Add blog post">
+            </section>
+        </form>
+    </div>
+</body>
+</html>

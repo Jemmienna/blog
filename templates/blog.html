@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Catalog</title>
+</head>
+<body>
+    <h1>Blog Catalog</h1>
+
+    <ul>
+        {% for blog in blog_data %}
+            <li><a href="/blog/view?id={{ blog[0] }}">{{ blog[1] }}</a></li>
+        {% endfor %}
+    </ul>
+<a href="/blog/view">View Blogs</a>
+</body>
+</html>
